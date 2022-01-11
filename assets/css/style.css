@@ -9,4 +9,24 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
+    color: #3a3a3a;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: 'Playfair display', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #252525;
+}
+
+#logo-a {
+    float: left;
+    font-size: 280%;
+    color: plum;
+}
+#logo-b {
+    float: left;
+    font-size: 280%;
 }
