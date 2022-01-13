@@ -118,7 +118,7 @@ h1 {
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(236, 53, 181, 0.2);
+    background-color: rgba(236, 53, 181, 0.4);
 
     bottom: 300px;
     left: 250px;
@@ -134,17 +134,35 @@ h1 {
     letter-spacing: 4px;
     text-align: center;
 
-    width: 800px;
-    height: 100px;
+    width: 960px;
+    height: 80px;
 
-    padding-top: 20px;
+    padding-top: 30px;
     padding-left: 10px;
 
-    background-color: rgba(236, 53, 181, 0.2);
+    background-color: rgba(236, 53, 181, 0.3);
 
     bottom: 160px;
-    left: 450px;
+    left: 350px;
 
     position: absolute;
 
+}
+
+/* About Artspace */
+
+#about-artspace {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
 }
