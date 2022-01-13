@@ -24,7 +24,7 @@ header {
     box-shadow: 0 -15px 50px #797878;
 }
 
-h1, h2 {
+h1 {
     font-family: 'Playfair display', sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -36,12 +36,14 @@ h1, h2 {
     float: left;
     font-size: 280%;
     color: plum;
+    margin-left: 30px;
 }
 
 #logo-b {
     float: left;
     font-size: 280%;
 }
+
 
 /* navigation links */
 
@@ -92,7 +94,7 @@ h1, h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text, #cover-text-2nd-line, #cover-text h2 {
     color: #fff
 }
 
@@ -110,17 +112,39 @@ h1, h2 {
     letter-spacing: 4px;
     text-align: center;
 
-    width: 400px;
-    height: 140px;
+    width: 800px;
+    height: 100px;
 
     padding-top: 40px;
     padding-left: 10px;
 
     background-color: rgba(236, 53, 181, 0.2);
 
-    bottom: 200px;
-    left: 800px;
+    bottom: 300px;
+    left: 250px;
 
     position: absolute;
     
+}
+
+#cover-text-2nd-line {
+    font-size: 150%;
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+
+    width: 800px;
+    height: 100px;
+
+    padding-top: 20px;
+    padding-left: 10px;
+
+    background-color: rgba(236, 53, 181, 0.2);
+
+    bottom: 160px;
+    left: 450px;
+
+    position: absolute;
+
 }
