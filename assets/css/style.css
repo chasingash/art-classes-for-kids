@@ -166,3 +166,11 @@ h1 {
     width: 50%;
     float: right;
 }
+
+.right-about-heading {
+    width: 80%;
+    float: left;
+    line-height: 25px;
+    clear: both;
+    margin-bottom: 50px;
+}
